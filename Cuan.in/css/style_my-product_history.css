@@ -1,0 +1,152 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+}
+h3{
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	color: #202020;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+/*header*/
+.header{
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	align-items: center;
+	background-color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 100000;
+}
+.header h3{
+	font-weight: 600;
+	padding-left: 10px;
+}
+
+
+
+/*form*/
+.product-container{
+	width: 95%;
+	border-radius: 30px;
+	background: #edf8ff;
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+.product-container h2{
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/*   border radius */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+}
+table thead {
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: #0099ff;
+  color: #fff;
+}
+table th {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+table td {
+  padding: 1rem 2rem;
+}
+table a {
+  color: #a7a7a7;
+  transition: all ease 0.3s;
+}
+table .product-name{
+	display: flex;
+	align-items: center;
+}
+table .product-name img {
+  width: 50px;
+}
+table .product-name span{
+	padding-left: 30px;
+}
+table .status {
+  border-radius: 0.2rem;
+  background-color: red;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+table .status-pending {
+  background-color: #fff0c2;
+  color: #a68b00;
+}
+table .status-paid {
+  background-color: #c8e6c9;
+  color: #388e3c;
+}
+table .status-unpaid {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+table .amount {
+  text-align: right;
+}
+table tr:nth-child(even) {
+  background-color: #f4f6fb;
+}
+table .edit:hover{
+  color: #0099ff;
+  transition: all ease 0.3s;
+}
+table .delete:hover{
+  color: #ff003c;
+  transition: all ease 0.3s;
+}
